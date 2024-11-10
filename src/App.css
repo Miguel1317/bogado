@@ -1,0 +1,97 @@
+.logo{
+  height:80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.espacio{
+  margin-left: 34%;
+}
+.redes{
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 23px;
+}
+.orden{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5%;
+  background-color: rgba(253, 253, 253, 0.895);
+  text-align: center;
+}
+.orden2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.orden2 h1{
+  font-weight: bolder;
+  font-size: 70px;
+}
+.orange{
+  color:orange;
+  font-weight: bolder;
+  font-size: 70px;
+}
+.movida{
+  width: 227px;
+  border-radius: 50%;
+  transition: 0.5s ease;
+  margin: 2%;
+}
+.movida:hover{
+  filter: drop-shadow(0 0 1em orange);
+}
+.orden3{
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.orden4{
+  width: 90%;
+}
+.orden5{
+  display: flex;
+  flex-direction: row;
+}
+.fotoo{
+  width:50%;
+  height: 60%;
+  margin: 2%;
+  border-radius: 3%;
+  border:5px black solid;
+  transition: 0.5s ease;
+}
+.fotoo:hover{
+  filter: drop-shadow(0 0 1em rgb(0, 0, 0));
+}
+.orden5{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+.contenedor{
+  width: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.sociales{
+  transition: 0.5s ease;
+  color: black;
+}
+.sociales:hover{
+  filter: drop-shadow(0 0 1em rgb(0, 0, 0));
+}
