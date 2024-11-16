@@ -14,10 +14,13 @@ function Navbarr() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="espacio" id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="click me-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="About">About</Nav.Link>
             <Nav.Link as={Link} to="Work">Work</Nav.Link>
+            <Nav.Link as={Link} to="appointments">Agenda un turno</Nav.Link>
+            <Nav.Link as={Link} to="dogs">Agrega un perro</Nav.Link>
+            <Nav.Link as={Link} to="clients">Agenda un cliente</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <div className="redes">

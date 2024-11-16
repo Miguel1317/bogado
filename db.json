@@ -1,0 +1,57 @@
+{
+  "clients": [
+    {
+      "id": "1",
+      "name": "Juan Pérez",
+      "phone": "123456789"
+    },
+    {
+      "id": "2",
+      "name": "María García",
+      "phone": "987654321"
+    },
+    {
+      "id": "a0fb",
+      "name": "Miguel Valera",
+      "phone": "3541618286"
+    }
+  ],
+  "dogs": [
+    {
+      "id": "1",
+      "name": "Rex",
+      "breed": "Pastor Alemán",
+      "age": 5,
+      "clientId": 1
+    },
+    {
+      "id": "2",
+      "name": "Luna",
+      "breed": "Labrador",
+      "age": 3,
+      "clientId": 2
+    },
+    {
+      "id": "df83",
+      "name": "Lyna",
+      "breed": "Caniche",
+      "age": "3"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "clientId": 1,
+      "dogId": 1,
+      "date": "2024-11-20",
+      "time": "10:00"
+    },
+    {
+      "id": "2",
+      "clientId": 2,
+      "dogId": 2,
+      "date": "2024-11-21",
+      "time": "14:00"
+    }
+  ]
+}
